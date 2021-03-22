@@ -1,0 +1,38 @@
+body{
+  display: block;
+  overflow-x: hidden;
+}
+
+nav{
+  background-color: lavender;
+}
+
+.navbar-brand img {
+  max-height: 58px;
+}
+
+.navbar-brand {
+  color: black;
+}
+
+nav ul li a {
+  color: black;
+  margin: auto 10px;
+}
+
+section{
+  padding-top: 100px;
+}
+
+.card {
+  margin: 10px auto;
+}
+
+.card-body {
+}
+
+.list {
+  margin-top: 100px;
+}
+
+
