@@ -27,7 +27,7 @@ https://marketplace-website-f9eee.web.app/
 
 ### Hébergement du site :
 
-![img](./readmesrc/FirebaseDeploy.png)
+![img](./readmesrc/firebaseDeploy.png)
 Avec le Firebase CLI, il est simple d'héberger un site web gratuitement en quelques commandes.
 
 ### API GraphQL :
