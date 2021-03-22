@@ -25,7 +25,11 @@ https://marketplace-website-f9eee.web.app/
 
 ---
 
-### Hébergement du site :
+### Hébergement du site via FIrebase :
+
+Firebase est une excellente solution pour réaliser des petits projets rapidement et gratuitement, avec un client très efficace.
+Il peut être aussi intéressant pour de gros projets lorsqu'on ne sait pas à quelle vitesse un projet pourrait grandir. Effectivement, la croissance est abstraite pour le développeur.
+Attention, cette croissance n'est pas abstraite pour le porte-feuille par contre si le projet devient trop volumineux.
 
 ![img](./readmesrc/firebaseDeploy.png)
 Avec le Firebase CLI, il est simple d'héberger un site web gratuitement en quelques commandes.
@@ -35,6 +39,8 @@ Avec le Firebase CLI, il est simple d'héberger un site web gratuitement en quel
 Cette API permet simplement de peupler la liste des livres que l'on voit en page d'accueil, cela assure une bonne communication entre le client et la base de données Firebase.
 
 On utilise Node JS et les packages 'express', 'apollo-server-express' ainsi que 'graphql' et les 'firebase tools'.
+
+Cette API est hébergée sur Firebase, tout comme la base de données de livres elle-même.
 
 ![img](./readmesrc/GraphQLimports.png)
 
@@ -64,7 +70,7 @@ Il y aura alors beaucoup d'informations à rentrer, telle que l'id du porte feui
 
 Il s'agit d'un site en HTML/CSS/JS utilisant aussi Bootstrap 5 pour son aspect visuel. Cela m'a permit de facilement obtenir des cartes standardisées pour chaque livre de la boutique. Ces cartes s'adaptent aussi très bien aux modifications de la taille de l'écran.
 
-D'ailleurs, voici la requête permettant de récupérer les livres dans la base de donnée. Pour chaque livre, on créé ensuite une carte avec son image et ses informations, avec la syntaxe particulière à Bootstrap. (dans index.js de TP_Website)
+D'ailleurs, voici la requête permettant de récupérer les livres dans la base de données. Pour chaque livre, on créé ensuite une carte avec son image et ses informations, avec la syntaxe particulière à Bootstrap. (dans index.js de TP_Website)
 
 ![img](./readmesrc/graphQLClient.png)
 
