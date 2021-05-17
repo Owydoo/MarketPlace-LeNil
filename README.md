@@ -12,7 +12,7 @@ Celle-ci permet de récupérer dans la base de données la liste des livres. Bas
 (Dans le fichier index.js de TP_Website)
 
 - Site web HTML/CSS/JS avec utilisation de Bootstrap 5 pour l'aspect visuel.
-Le site est lui aussi héberger sur Firebase.
+Le site est lui aussi hébergé sur Firebase.
 (Dossier TP_Website)
 
 Lien du site :
